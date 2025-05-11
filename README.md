@@ -232,6 +232,12 @@ php artisan vendor:publish --provider="Tighten\Ziggy\ZiggyServiceProvider"
 </html>
 ```
 
+### se debe generar el api key de laravel si no, no arrancará el proyecto. Luego se debe copiar en el .env en la variable APP_KEY
+
+```bash
+php artisan key:generate --show
+```
+
 ### toast con toastr
 
 
