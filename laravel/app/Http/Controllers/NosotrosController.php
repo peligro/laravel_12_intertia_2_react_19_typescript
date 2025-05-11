@@ -8,6 +8,6 @@ class NosotrosController extends Controller
 {
     public function nosotros_index(Request $request)
     {
-        return Inertia::render('nosotros/Index', []);
+        sleep(2);return Inertia::render('nosotros/Index', []);
     }
 }
